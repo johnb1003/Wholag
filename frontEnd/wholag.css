@@ -1,0 +1,118 @@
+.background {
+    padding: 0px;
+    background: url(https://specials-images.forbesimg.com/imageserve/5e6fda88e1e61700080ef1d4/960x0.jpg?fit=scale); 
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: 100% 100%;
+    z-index: 1;
+}
+
+.heading {
+    padding: 0px;
+    margin: 0px;
+    background: rgb(34, 33, 33);
+    text-align: center;
+    vertical-align: top;
+    border-bottom: 3px solid gray;
+}
+
+.logo {
+    float: left;
+    width: 10%;
+    height: auto;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    margin-left: 100px;
+    margin-right: 0px;
+}
+
+.title {
+    font: fantasy;
+    float: left;
+    color: rgb(240, 152, 51);
+    margin-top: 0px;
+    margin-left: 24px;
+    padding-top: 12px;
+    font-size: 43px;
+}
+
+.tagline {
+    float: right;
+    color: white;
+    margin-right: 34px;
+    padding-top: 8px;
+}
+
+.clearer {
+    clear: both;
+  }
+
+.container-1 {
+    padding: 10px; 
+    background: rgba(77, 76, 76, 0.7);
+    text-align: center;
+    min-width: 100%;
+    padding-bottom: 160px;
+}
+
+/* --- form --- */
+.form-inline input {
+    margin: 0px 0px 0px 0;
+    padding: 20px 180px;
+    background-color: #fff;
+    border: 1px solid rgb(252, 250, 250);
+}
+
+.form-inline button {
+    padding: 10px 3px;
+    background-color: rgb(240, 152, 51);
+    border: 1px solid white;
+    color: white;
+    cursor: pointer;
+    margin: 0px;
+}
+
+.form-inline button:hover {
+    background-color: rgb(255, 136, 0);
+    border: 1px solid white;
+}
+
+.form-inline label {
+    font-size: 33px;
+    vertical-align: middle;
+    padding-top: 60px;
+    padding-bottom: 10px;
+    color: white;
+}
+
+.form_inline {
+    padding: 20px;
+}
+
+.form_control {
+    padding-left: 40px;
+}
+
+.backdrop {
+    padding: 10px; 
+    background: rgb(34, 33, 33);
+    text-align: center;
+    min-width: 100%;
+    padding-bottom: 320px;
+    border-top: 3px solid gray;
+}
+
+.squad-card {
+    position: absolute;
+    z-index: 2;
+    left: 12%;
+    top: 50%;
+    background: rgb(46, 45, 45);
+}
+
+.squad-card-label {
+    background: rgb(109, 106, 106);
+    padding: 10px;
+}
+
+

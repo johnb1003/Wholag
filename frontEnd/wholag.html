@@ -1,0 +1,52 @@
+<!DOCTYPE HTML>
+<html>
+    <head>
+        <title>Wholag</title>
+        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+        <link rel="stylesheet" type="text/css" href="./wholag.css">
+        <!-- Latest compiled and minified CSS -->
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+        <!-- jQuery library -->
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+        <!-- Latest compiled JavaScript -->
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+        <script type="text/javascript" src="wholag.js"></script>
+    </head>
+
+    <body class="background">
+        <div class="heading">
+            <img class="logo" src="https://www.callofduty.com/content/dam/atvi/callofduty/cod-touchui/warzone/landing/hero/warzone-logo-white-shadow.png" alt="Warzone">
+            <h3 class="tagline">Bring a teammate back from Davy Jones' Locker in style</h3>
+            <h1 class="title">Wholag</h1>
+            <div class="clearer"></div>
+        </div>
+
+        <div class="container-1">
+            <form class="form-inline">
+                <label for="members">Enter squad members individually: </label>
+                <br>
+                <input type="text" class="form-control" id="members" placeholder="Name / Gamertag">
+                <button type="submit" id="submitSquad" onclick="getMember()">Add member</button>
+            </form>
+        </div>
+
+        <div class="squad-card">
+            <div class="members">
+                <p class="squad-card-label">Squad Members</p>
+                <form class="squad-1">
+                    <p id=squad1>Member 1</p>
+                </form>
+                <form class="squad-2">
+                    <p id=squad2>Member 2</p>
+                </form>
+                <form class="squad-3">
+                    <p id=squad3>Member 3</p>
+                </form>
+                <form class="squad-4">
+                    <p id=squad4>Member 4</p>
+                </form>
+            </div>
+        </div>
+        <div class="backdrop"></div>
+    </body>
+</html>
